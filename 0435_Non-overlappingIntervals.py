@@ -2,6 +2,10 @@
 # Yuan-Peng Yu
 # 01/24/2022
 
+# Same as the interval scheduling problem
+# 1. sort the intervals
+# 2. check whether current interval is compatible to previous interval
+# 3. Non-overlapped = compatible
 
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
@@ -23,3 +27,4 @@ class Solution:
     # Runtime: 2234 ms, faster than 24.28% of Python3
     # Time: O(nlog(n)) + O(n) = O(nlog(n))
     # Space: O(n)
+    
