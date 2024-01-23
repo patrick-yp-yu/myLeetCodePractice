@@ -1,10 +1,7 @@
 # 0049. Group Anagrams
 
-tag: HashTable
-URL: https://leetcode.com/problems/group-anagrams/
-Familiarity: 3/10
-PatternStarter: No
-Date: July 11, 2022
+- tag: HashTable
+- URL: https://leetcode.com/problems/group-anagrams/
 
 # Thinking
 
