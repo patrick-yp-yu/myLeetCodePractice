@@ -12,3 +12,4 @@ Here are my notes and solutions for LeetCode.
 - [0703. Kth Largest Element in a Stream](/Notes/0703_Kth_Largest_Element_in_a_Stream.md)
 - [0215. Kth Largest Element in an Array](/Notes/0215_Kth_Largest_Element_in_an_Array.md)
 - [0973. K Closest Points to Origin](/Notes/0973_K_Closest_Points_to_Origin.md)
+- [0451. Sort Characters By Frequency](/Notes/0451_Sort_Characters_By_Frequency.md)
