@@ -58,9 +58,9 @@ def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
 - min heap = a binary tree where parent node value < children value
 - Python heapify only takes **O(N)** time  ( swap root to satisfy heap property)
-- 
-
 - max_heap = push negative value to min_heap
+- Use `tuples` for heappush, and it will sort by the first element of the tuple:
+
 
 ```python
 # Sol2.     
