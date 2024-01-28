@@ -4,6 +4,10 @@ Here are my notes and solutions for LeetCode.
 
 ## Array
 - [0238. Product of Array Except Self](/Notes/0238_Product_of_Array_Except_Self.md)
+- [0271. Encode and Decode Strings](/Notes/0271_Encode_and_Decode_Strings.md)
+- [0128. Longest Consecutive Sequence](/Notes/0128_Longest_Consecutive_Sequence.md)
+## 2D Array
+- [0036. Valid Sudoku](/Notes/0036_Valid_Sudoku.md)
 
 ## Anagram 
 - [0049. Group Anagrams](/Notes/0049_Group_Anagrams.md)
