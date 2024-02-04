@@ -20,3 +20,11 @@ Here are my notes and solutions for LeetCode.
 - [0973. K Closest Points to Origin](/Notes/0973_K_Closest_Points_to_Origin.md)
 - [0451. Sort Characters By Frequency](/Notes/0451_Sort_Characters_By_Frequency.md)
 
+## Stack
+- [0020. Valid Parentheses](/Notes/0020_Valid_Parentheses.md)
+- [0155. Min Stack](/Notes/0155_Min_Stack.md)
+- [0150. Evaluate Reverse Polish Notation](/Notes/0150_Evaluate_Reverse_Polish_Notation.md)
+
+
+## Backtracking
+- [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
