@@ -25,6 +25,12 @@ Here are my notes and solutions for LeetCode.
 - [0155. Min Stack](/Notes/0155_Min_Stack.md)
 - [0150. Evaluate Reverse Polish Notation](/Notes/0150_Evaluate_Reverse_Polish_Notation.md)
 
+### Monotonic Stack -- Next Greater Element
+- [0496. Next Greater Element I](/Notes/0496_Next_Greater_Element_I.md)
+- [0503. Next Greater Element II](/Notes/0503_Next_Greater_Element_II.md)
+- [0739. Daily Temperatures](/Notes/0739_Daily_Temperatures.md)
+
+
 
 ## Backtracking
 - [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
