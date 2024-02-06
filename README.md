@@ -24,6 +24,7 @@ Here are my notes and solutions for LeetCode.
 - [0020. Valid Parentheses](/Notes/0020_Valid_Parentheses.md)
 - [0155. Min Stack](/Notes/0155_Min_Stack.md)
 - [0150. Evaluate Reverse Polish Notation](/Notes/0150_Evaluate_Reverse_Polish_Notation.md)
+- [0853. Car Fleet](/Notes/0853_Car_Fleet.md)
 
 ### Monotonic Stack -- Next Greater Element
 - [0496. Next Greater Element I](/Notes/0496_Next_Greater_Element_I.md)
