@@ -33,8 +33,8 @@ Here are my notes and solutions for LeetCode.
 
 ### Monotonic Stack 
 - [0042. Trapping Rain Water](/Notes/0042_Trapping_Rain_Water.md)
-- [0084. Largest Rectangle in Histogram]
-- 
+- [0084. Largest Rectangle in Histogram](/Notes/0084_Largest_Rectangle_in_Histogram.md)
+
 
 ## Backtracking
 - [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
