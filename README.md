@@ -36,5 +36,10 @@ Here are my notes and solutions for LeetCode.
 - [0084. Largest Rectangle in Histogram](/Notes/0084_Largest_Rectangle_in_Histogram.md)
 - [0856. Score of Parentheses](/Notes/0856_Score_of_Parentheses.md)
 
+### Monotonic Stack -- Subarray
+- [0907. Sum of Subarray Minimums](/Notes/0907_Sum_of_Subarray_Minimums.md)
+- [2104. Sum of Subarray Ranges]
+- 
+
 ## Backtracking
 - [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
