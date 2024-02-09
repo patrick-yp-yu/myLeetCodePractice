@@ -4,6 +4,7 @@
 - URL: https://leetcode.com/problems/sum-of-subarray-minimums/
 
 
+
 ## Code1 Brute Force ⇒ Time Limit Exceeded
 
 - Brute force will need O(n^2) time. Computing the ranges from index i to j is time-consuming.
@@ -58,14 +59,17 @@ i = 4, stk = [1, 2, 4]
 - Idea: when you encounter the minimum number x, x = min(any subarray that contains the minimum number x)
     - the subarrays (that includes x) ⇒ the minimum number will be= x
     - contribute to the total sum of minimum =  x * ( the count of the subarrays that include x)
-- How to find the count of the subarrays that include x?
+- **Key to the question:** how to find the `count of the subarrays that include x`?
     - min_index = the index of the minimum number
     - (min_index - left_boundary) * ( right_boundary - min_index)
-    - left_boundary = index of (previous smaller number)
-    - right_boundary = index of (next smaller number)
+    - left_boundary = `index of (previous smaller number)`
+    - right_boundary = `index of (next smaller number)`
+    
     
 - The range of subarrays keep changes. Every time you encounter a smaller number, the smaller number will be push into a stack. And, we find the contribution of the smaller number to the overall sum.
-- In the code, when encounter new smaller number, we compute the contribution of the previous number.
+- In the code, when encounter new smaller number, we compute the contribution of the previous small number in the stack.
+    
+    
 
 ### Another Interpretation
 
@@ -80,11 +84,11 @@ right subarrays = [7,8,4,5], [8,4,5], [4,5]
 
 To find contribution of number 4, 
 we will find out until meet next smaller number 3
+
 count of left subarrays  = index_(4) - index_(previous smaller number=2) = 5-2=3
 count of rightt subarrays= index_(next smaller number=3) - index_(4)= 7-5=2
 contribution of 4 = 4 * (3*2) = (number 4) * (subarray counts = 6) 
 ```
-
 
 ```python
 # Monotonic Stack
@@ -96,7 +100,7 @@ contribution of 4 = 4 * (3*2) = (number 4) * (subarray counts = 6)
         for i, num in enumerate(arr):
             # When encounter a smaller num, push into stack
             # Compute the contribution of the previous num to the sum of minimums
-            while stack and arr[i] <= arr[stack[-1]]:
+            while stack and arr[i] < arr[stack[-1]]:
                 prev_idx = stack.pop()
                 left_bound = stack[-1] if stack else -1
                 right_bound = i
@@ -118,8 +122,52 @@ contribution of 4 = 4 * (3*2) = (number 4) * (subarray counts = 6)
         # Time: O(n), Space: O(n)
 ```
 
+- `left_bound = stack[-1] if stack else -1`
+    - if stack exist, left_bound = index_(previous smaller number)
+    - if stack does not exist, like in the beginning, left_bound set as -1, smaller than the index 0
+- In while loop
+    - `right_bound = len(arr)` , which is set as the maximum index in the `arr`.
+    
+
+### Optimized code
+
+- The final loop need to process the numbers that remain in the stack. The optimized code is to  reduce the extra while loop.
+    - the while loop is performing the same thing.
+- `arr = [float("-inf")] + arr + [float("-inf")]`
+    - Add the smallest num to both left & right boundary, so it will go to the while loop to pop out all elements in the stack
+
+```python
+# Monotonic Stack - optimized to reduce while loop
+    def sumSubarrayMins_2(self, arr: List[int]) -> int:
+
+        # Add the smallest num to both left & right boundary 
+        arr = [float("-inf")] + arr + [float("-inf")]   
+        sum_min = 0 
+        stack = []      # save index of smaller num
+
+        for i, num in enumerate(arr):
+            # When encounter a smaller num, push into stack
+            # Compute the contribution of the previous num to the sum of minimums
+            while stack and arr[i] < arr[stack[-1]]:
+                prev_idx = stack.pop()
+                left_bound = stack[-1] if stack else -1
+                right_bound = i
+
+                # count the previous contribution
+                count = (prev_idx - left_bound) * (right_bound - prev_idx)  # number of subarrys contain
+                sum_min += count * arr[prev_idx]
+            stack.append(i)
+
+        return sum_min % (10 **9 + 7)     
+        # Time: O(n), Space: O(n)
+```
 
 ### Complexity
 
 - Time: O(n)
 - Space: O(n)
+
+### Reference
+
+- [https://www.youtube.com/watch?v=BqrO3lMwfRM](https://www.youtube.com/watch?v=BqrO3lMwfRM)
+- [https://www.youtube.com/watch?v=aX1F2-DrBkQ](https://www.youtube.com/watch?v=aX1F2-DrBkQ)
