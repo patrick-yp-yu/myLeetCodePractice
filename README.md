@@ -30,16 +30,17 @@ Here are my notes and solutions for LeetCode.
 - [0496. Next Greater Element I](/Notes/0496_Next_Greater_Element_I.md)
 - [0503. Next Greater Element II](/Notes/0503_Next_Greater_Element_II.md)
 - [0739. Daily Temperatures](/Notes/0739_Daily_Temperatures.md)
+- [0901. Online Stock Span](/Notes/0901_Online_Stock_Span.md)
 
-### Monotonic Stack 
+### Monotonic Stack -- Compute areas
 - [0042. Trapping Rain Water](/Notes/0042_Trapping_Rain_Water.md)
 - [0084. Largest Rectangle in Histogram](/Notes/0084_Largest_Rectangle_in_Histogram.md)
 - [0856. Score of Parentheses](/Notes/0856_Score_of_Parentheses.md)
 
 ### Monotonic Stack -- Subarray
 - [0907. Sum of Subarray Minimums](/Notes/0907_Sum_of_Subarray_Minimums.md)
-- [2104. Sum of Subarray Ranges]
-- 
+- [2104. Sum of Subarray Ranges](/Notes/2104_Sum_of_Subarray_Ranges.md)
+
 
 ## Backtracking
 - [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
