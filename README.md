@@ -31,6 +31,7 @@ Here are my notes and solutions for LeetCode.
 - [0503. Next Greater Element II](/Notes/0503_Next_Greater_Element_II.md)
 - [0739. Daily Temperatures](/Notes/0739_Daily_Temperatures.md)
 - [0901. Online Stock Span](/Notes/0901_Online_Stock_Span.md)
+- [1019. Next Greater Node In Linked List](/Notes/1019_Next_Greater_Node_In_Linked_List.md)
 
 ### Monotonic Stack -- Compute areas
 - [0042. Trapping Rain Water](/Notes/0042_Trapping_Rain_Water.md)
