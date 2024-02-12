@@ -32,6 +32,8 @@ Here are my notes and solutions for LeetCode.
 - [0739. Daily Temperatures](/Notes/0739_Daily_Temperatures.md)
 - [0901. Online Stock Span](/Notes/0901_Online_Stock_Span.md)
 - [1019. Next Greater Node In Linked List](/Notes/1019_Next_Greater_Node_In_Linked_List.md)
+- [1762. Buildings With an Ocean View](/Notes/1762_Buildings_With_an_Ocean_View.md)
+- [1944. Number of Visible People in a Queue](/Notes/1944_Number_of_Visible_People_in_a_Queue.md)
 
 ### Monotonic Stack -- Compute areas
 - [0042. Trapping Rain Water](/Notes/0042_Trapping_Rain_Water.md)
