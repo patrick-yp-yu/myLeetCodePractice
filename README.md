@@ -48,3 +48,9 @@ Here are my notes and solutions for LeetCode.
 
 ## Backtracking
 - [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
+
+
+## Binary Search
+- [0278. First Bad Version](/Notes/0278_First_Bad_Version.md)
+- [0035. Search Insert Position](/Notes/0035_Search_Insert_Position.md)
+- [0034. Find First and Last Position of Element in Sorted Array](/Notes/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
