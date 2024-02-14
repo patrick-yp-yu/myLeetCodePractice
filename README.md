@@ -55,3 +55,4 @@ Here are my notes and solutions for LeetCode.
 - [0035. Search Insert Position](/Notes/0035_Search_Insert_Position.md)
 - [0034. Find First and Last Position of Element in Sorted Array](/Notes/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](/Notes/1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array.md)
+- [0744. Find Smallest Letter Greater Than Target](/Notes/0744_Find_Smallest_Letter_Greater_Than_Target.md)
