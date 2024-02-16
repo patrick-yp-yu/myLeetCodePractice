@@ -57,3 +57,5 @@ Here are my notes and solutions for LeetCode.
 - [1150. Check If a Number Is Majority Element in a Sorted Array](/Notes/1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array.md)
 - [0744. Find Smallest Letter Greater Than Target](/Notes/0744_Find_Smallest_Letter_Greater_Than_Target.md)
 - [0153. Find Minimum in Rotated Sorted Array](/Notes/0153_Find_Minimum_in_Rotated_Sorted_Array.md)
+- [0162. Find Peak Element](/Notes/0162_Find_Peak_Element.md)
+- [0540. Single Element in a Sorted Array](/Notes/0540_Single_Element_in_a_Sorted_Array.md)

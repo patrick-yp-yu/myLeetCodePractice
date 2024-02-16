@@ -65,9 +65,6 @@ class Solution:
 - Time: O(log n)
 - Space: O(1)
 
-### Reference:
-
-- 
 
 <br>
 
