@@ -51,12 +51,18 @@ Here are my notes and solutions for LeetCode.
 
 
 ## Binary Search
+
+### Basic template
 - [0278. First Bad Version](/Notes/0278_First_Bad_Version.md)
 - [0035. Search Insert Position](/Notes/0035_Search_Insert_Position.md)
 - [0034. Find First and Last Position of Element in Sorted Array](/Notes/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
+- [0441. Arranging Coins](/Notes/0441_Arranging_Coins.md)
+
 - [1150. Check If a Number Is Majority Element in a Sorted Array](/Notes/1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array.md)
 - [0744. Find Smallest Letter Greater Than Target](/Notes/0744_Find_Smallest_Letter_Greater_Than_Target.md)
 - [0153. Find Minimum in Rotated Sorted Array](/Notes/0153_Find_Minimum_in_Rotated_Sorted_Array.md)
 - [0162. Find Peak Element](/Notes/0162_Find_Peak_Element.md)
+
+### Harder
 - [0540. Single Element in a Sorted Array](/Notes/0540_Single_Element_in_a_Sorted_Array.md)
 - [0875. Koko Eating Bananas](/Notes/0875_Koko_Eating_Bananas.md)
