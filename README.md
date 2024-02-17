@@ -59,3 +59,4 @@ Here are my notes and solutions for LeetCode.
 - [0153. Find Minimum in Rotated Sorted Array](/Notes/0153_Find_Minimum_in_Rotated_Sorted_Array.md)
 - [0162. Find Peak Element](/Notes/0162_Find_Peak_Element.md)
 - [0540. Single Element in a Sorted Array](/Notes/0540_Single_Element_in_a_Sorted_Array.md)
+- [0875. Koko Eating Bananas](/Notes/0875_Koko_Eating_Bananas.md)
