@@ -1,18 +1,24 @@
-# 875. Koko Eating Bananas
+# 0875. Koko Eating Bananas
 
-tag: BinarySearch
-URL: https://leetcode.com/problems/koko-eating-bananas/
+- tag: `BinarySearch`
+- URL: https://leetcode.com/problems/koko-eating-bananas/
 
 ## Thinking
 
-1. 
-2. 
+1. `Input: piles = [3,6,7,11], h = 8`
+    - if eating speed = 11, only need 4 hours to finish
+    - if eating speed = 1, need (3+6+7+11) hours to finish, which is > 8. Koko will be caught by guard. 
+    - mid = 11/2= 5 = eating speed ,  need [1+ 2+2+3] = 8 hours, still cannot finish in time. 
+2. KoKo eating speed is ranging from [0, max(piles)]
+    - We are using binary search to decide the eating speed, and Koko prefer eat slowly .
+    - ⇒ we try to find the minimum speed k=(mid) between range[0, max(piles)] ⇒ use binary search
+3. Need to understand the question, and convert to binary search problem. 
+    - range = [0, max(piles)] = [l, r]
+    - mid = adjustable eating speed ⇒ try to find the minimum eating speed that can finish all in time.
 
----
+<br>
 
 ## Code1
-
-- 
 
 ```python
 class Solution:
@@ -53,11 +59,12 @@ class Solution:
 - Time: O( n * log(m)), n = len(piles), m = max(piles)
 - Space: O(1)
 
----
+<br>
 
 ## Code2
 
-- 
+- We try to find the minimum speed k between range[0, max(piles)] ⇒ use binary search find k
+- Convert unsorted array to FFTTT pattern, find the 1st true pattern
 
 ```python
 # Binary search 
