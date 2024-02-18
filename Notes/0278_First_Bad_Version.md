@@ -106,3 +106,12 @@ ans=1
 
 - Time: *O*(log*n*)
 - Space: O(1)
+
+<br>
+
+## Code3 Python bisect
+```python
+# Python Bisect, find the first True
+    def firstBadVersion(self, n: int) -> int:
+        return bisect.bisect_left(range(n), True, key=isBadVersion)
+```

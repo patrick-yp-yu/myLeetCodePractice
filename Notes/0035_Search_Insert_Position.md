@@ -141,3 +141,13 @@ l= 1, r=4, mid=2: 5 vs 7=target
 l= 2, r=4, mid=3: 6 vs 7=target
 loops end. l=3, r=4
 ```
+
+<br>
+
+# Code4 Python Bisect
+ 
+```python
+# Python Bisect
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        return bisect.bisect_left(nums, target)
+```

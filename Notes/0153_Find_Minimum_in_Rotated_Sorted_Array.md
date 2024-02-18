@@ -34,7 +34,10 @@ class Solution:
             else:
                 # nums[0] >= nums[mid]
                 # Abnormal. Left-half contain min
-                r = mid
+                r = mid 
+        
+        return nums[r]
+        # Time:O(log n), Space: O(1) 
 ```
 
 ```python
