@@ -37,7 +37,7 @@ class Solution:
                 r = mid 
         
         return nums[r]
-        # Time:O(log n), Space: O(1) 
+        # Time:O(log n), Space: O(1)
 ```
 
 ```python
@@ -70,26 +70,54 @@ l=1 	   r=1, [1] is sorted
 ## Code2 Binary Search 2
 
 - The array is sorted but rotated. We need to find the pivot point that separated two sorted parts.
-- [1, 2, 3, 4, 5] is sorted, `nums[-1] >= each element`
-- [3, 4, 5, 1, 2] is rotated. The pivot point = the minimum element in the rotated array.
-- [F, F, F, T, T]  Let’s change the question. Find 1st index where `nums[mid] <= nums[-1]`
+- [1, 2, 3, 4, 5] is sorted; two condition will be satisfied.
+    - `nums[l] <= each element`
+    - `each element <= nums[-1]`
+    - Both condition can help use find the answer.
+- [3, 4, 5, 1, 2] is rotated. `The pivot point` = the minimum element in the rotated array.
+- [F, F, F, T, T]  Let’s change the question. Find 1st index where satisfy `nums[mid] <= nums[-1]`
     - The question becomes to find 1st index and we can apply binary search.
-- if `nums[mid] <= nums[-1]:`
-    - FFF'T'T, the mid index is currently inside the right-half of the pivot, so we need to move r to find the left-half
+
+![rotatedArrayProperty.png](images/rotatedArrayProperty.png)    
+
+### Use `each element <= nums[-1]` to check
+
+- if `nums[mid] <= nums[-1]:`  (monotonically increasing, include `=`)
+    - This half is sorted (monotonically increasing). The pivot is not in this half.
+    - So, we move r to find the left-half
 - if `nums[mid] > nums[-1]:`
-    - The mid index is currently inside the left-hlaf of the pivot, so we need to move l to find the right-half.
+    - This half is not sorted (monotonically increasing), the pivot is in this half.
 
 ```python
-# [3,4,5,1,2], Change problem to find 1st index where "nums[mid] <= nums[-1]"
-    #  F,F,F,T,T   F = left side of the pivot, T = right side of the pivot
-    def findMin(self, nums: List[int]) -> int:
+def findMin(self, nums: List[int]) -> int:
         l, r = -1, len(nums) 
         while (l + 1) < r:
             mid = l + (r - l) // 2
-            if nums[mid] <= nums[-1]:   # FFF'T'T, inside the right-half of the pivot, move r 
+            if nums[mid] <= nums[-1]:   # monotonically increasing, pivot in the other half
                 r = mid
-            else:                       # > nums[-1], inside the left-half, move l
+            else:                       # nums[mid] >= nums[-1], this half contain pivot
                 l = mid
+        # print(f"l={l}, r={r}")          # return the minimum element, not index
+        return nums[r]
+```
+
+### Use `nums[l] <= each element` to check
+
+- if `nums[l] <= nums[mid]:`  (monotonically increasing, include `=`)
+    - This half is sorted (monotonically increasing). The pivot is not in this half.
+    - So, we move r to find the left-half
+- if `nums[l] > nums[mid]:`
+    - This half is not sorted (monotonically increasing), the pivot is in this half.
+
+```python
+def findMin_3(self, nums: List[int]) -> int:
+        l, r = -1, len(nums) 
+        while (l + 1) < r:
+            mid = l + (r - l) // 2
+            if nums[l] < nums[mid]:     # monotonically increasing, pivot in the other half
+                l = mid
+            else:                       # nums[l] >= nums[mid], this half contain pivot
+                r = mid
         # print(f"l={l}, r={r}")          # return the minimum element, not index
         return nums[r]
 ```

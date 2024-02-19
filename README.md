@@ -63,11 +63,11 @@ Here are my notes and solutions for LeetCode.
 - [0441. Arranging Coins](/Notes/0441_Arranging_Coins.md)
 - [0034. Find First and Last Position of Element in Sorted Array](/Notes/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
 - [1150. Check If a Number Is Majority Element in a Sorted Array](/Notes/1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array.md)
-
+- [1891. Cutting Ribbons](/Notes/1891_Cutting_Ribbons.md)
 
 ### Variations
 - [0540. Single Element in a Sorted Array](/Notes/0540_Single_Element_in_a_Sorted_Array.md)
 - [0875. Koko Eating Bananas](/Notes/0875_Koko_Eating_Bananas.md)
-
+- [0033. Search in Rotated Sorted Array](/Notes/0033_Search_in_Rotated_Sorted_Array.md)
 
 
