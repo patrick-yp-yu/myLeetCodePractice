@@ -69,5 +69,5 @@ Here are my notes and solutions for LeetCode.
 - [0540. Single Element in a Sorted Array](/Notes/0540_Single_Element_in_a_Sorted_Array.md)
 - [0875. Koko Eating Bananas](/Notes/0875_Koko_Eating_Bananas.md)
 - [0033. Search in Rotated Sorted Array](/Notes/0033_Search_in_Rotated_Sorted_Array.md)
-
+- [1060. Missing Element in Sorted Array](/Notes/1060_Missing_Element_inSorted_Array.md)
 
