@@ -46,8 +46,7 @@ Here are my notes and solutions for LeetCode.
 - [2104. Sum of Subarray Ranges](/Notes/2104_Sum_of_Subarray_Ranges.md)
 
 
-## Backtracking
-- [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
+
 
 
 ## Binary Search
@@ -71,3 +70,8 @@ Here are my notes and solutions for LeetCode.
 - [0033. Search in Rotated Sorted Array](/Notes/0033_Search_in_Rotated_Sorted_Array.md)
 - [1060. Missing Element in Sorted Array](/Notes/1060_Missing_Element_inSorted_Array.md)
 
+## Backtracking
+- [0022. Generate Parentheses](/Notes/0022_Generate_Parentheses.md)
+
+### Combinations 
+- [0077. Combinations](/Notes/0077_Combinations.md)
