@@ -75,5 +75,8 @@ Here are my notes and solutions for LeetCode.
 
 ### Combinations 
 - [0077. Combinations](/Notes/0077_Combinations.md)
+
+#### Combination Sum
 - [0216. Combination Sum III](/Notes/0216_CombinationSum_III.md)
 - [0039. Combination Sum](/Notes/0039_Combination_Sum.md)
+- [0040. Combination Sum II](/Notes/0040_Combination_Sum_II.md)
