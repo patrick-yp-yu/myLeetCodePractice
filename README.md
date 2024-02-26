@@ -80,3 +80,7 @@ Here are my notes and solutions for LeetCode.
 - [0216. Combination Sum III](/Notes/0216_CombinationSum_III.md)
 - [0039. Combination Sum](/Notes/0039_Combination_Sum.md)
 - [0040. Combination Sum II](/Notes/0040_Combination_Sum_II.md)
+
+#### Permutation
+- [0046. Permutations](/Notes/0046_Permutations.md)
+- [0047. Permutations II](/Notes/0047_Permutations_II.md)
