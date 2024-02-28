@@ -77,15 +77,18 @@ Here are my notes and solutions for LeetCode.
 - [0077. Combinations](/Notes/0077_Combinations.md)
 - [0017. Letter Combinations of a Phone Number](/Notes/0017_Letter_Combinations_of_a_Phone_Number.md)
 
-#### Combination Sum
+### Combination Sum
 - [0216. Combination Sum III](/Notes/0216_CombinationSum_III.md)
 - [0039. Combination Sum](/Notes/0039_Combination_Sum.md)
 - [0040. Combination Sum II](/Notes/0040_Combination_Sum_II.md)
 
-#### Permutation
+### Permutation
 - [0046. Permutations](/Notes/0046_Permutations.md)
 - [0047. Permutations II](/Notes/0047_Permutations_II.md)
 
-#### Subsets
+### Subsets
 - [0078. Subsets](/Notes/0078_Subsets.md)
 - [0090. Subsets II](/Notes/0090_Subsets_II.md)
+
+### 2D Grid + DFS
+- [# 0079. Word Search](/Notes/0079_Word_Search.md)
