@@ -5,13 +5,14 @@
 
 ## Related questions:
 
-[[0216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)](https://www.notion.so/0216-Combination-Sum-III-e220591676d44cd58a51852fd50ac9e8?pvs=21) 
+[0216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)
 
 - In 0216, each number can only be used **once**.
     - Valid number range: 1~9. Traverse the limited range by controlling index.
 - In 0039, each number can be used **unlimited number of times.**
     - need to traverse all candidates[i]
 
+## Reference
 [programmercarl/leetcode-master（代码随想录出品）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0039.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.md)
 
 **Backtracking 3 steps**

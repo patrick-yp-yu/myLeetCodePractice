@@ -91,4 +91,9 @@ Here are my notes and solutions for LeetCode.
 - [0090. Subsets II](/Notes/0090_Subsets_II.md)
 
 ### 2D Grid + DFS
-- [# 0079. Word Search](/Notes/0079_Word_Search.md)
+- [0079. Word Search](/Notes/0079_Word_Search.md)
+
+
+
+## SubarraySum / PrefixSum
+-[0560. Subarray Sum Equals K](/Notes/0560_Subarray_Sum_Equals_K.md)
