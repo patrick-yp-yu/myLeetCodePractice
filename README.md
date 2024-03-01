@@ -96,4 +96,5 @@ Here are my notes and solutions for LeetCode.
 
 
 ## SubarraySum / PrefixSum
--[0560. Subarray Sum Equals K](/Notes/0560_Subarray_Sum_Equals_K.md)
+### [Basic Running Sum Problems](/Notes/BasicRunningSum.md)
+- [0560. Subarray Sum Equals K](/Notes/0560_Subarray_Sum_Equals_K.md)
